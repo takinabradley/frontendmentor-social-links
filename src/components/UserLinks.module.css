@@ -21,6 +21,14 @@
   border-radius: 10px;
 }
 
+.listItem:hover {
+  background-color: var(--primary);
+}
+
+.listItem:hover .link {
+  color: var(--off-black);
+}
+
 .link {
   color: var(--white);
   text-decoration: none;
